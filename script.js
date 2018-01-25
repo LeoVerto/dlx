@@ -779,18 +779,14 @@ DLX.Launch = function() {
         $$('register-col')[0].innerHTML += insertInnerHTML;
         insertInnerHTML = '';
         for (var _i = 16; _i < 32; _i++) {
-            insertInnerHTML += '<label><input type="text" class="register"> R'+_i+'</label>';
+            insertInnerHTML += '<label>R'+_i+' <input type="text" class="register"></label>';
         }
         $$('register-col')[1].innerHTML = insertInnerHTML;
         DLX.Registers = $$('register');
         // generate memory
         insertInnerHTML = '';
-        for (var _i = 0; _i < 8; _i++) {
-            insertInnerHTML += '<div class="memory-col">';
-            for (var _j = 0; _j < 32; _j++) {
-                insertInnerHTML += '<label><span class="memory-address"></span>'+' <input type="text" class="memory"></label>';
-            }
-            insertInnerHTML += '</div>';
+        for (var _i = 0; _i < 256; _i++) {
+            insertInnerHTML += '<label><span class="memory-address"></span>'+' <input type="text" class="memory"></label>';
         }
         $('memory').innerHTML = insertInnerHTML;
         DLX.adjustAddresses();
