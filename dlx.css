@@ -43,7 +43,7 @@ body {
 .CodeMirror {
   font-family: Courier, monospace;
   border: 1px solid #ddd;
-  height: 400px;
+  height: 600px;
 }
 .CodeMirror.cm-s-dlx-light .DLXerror {
   background: rgba(255, 109, 71, 0.3);
