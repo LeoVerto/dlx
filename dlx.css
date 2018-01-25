@@ -95,7 +95,7 @@ body {
   cursor: default;
 }
 #container {
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
   position: relative;
 }
@@ -276,7 +276,7 @@ body {
   background: silver;
 }
 #container #controls {
-  width: 900px;
+  width: 980px;
 }
 #container #controls div {
   display: inline-block;
@@ -311,8 +311,8 @@ body {
   display: none;
 }
 #container #editor-wrap {
-  max-width: 900px;
-  width: calc(100% - 300px);
+  max-width: 980px;
+  width: calc(100% - 310px);
   display: inline-block;
 }
 #container #registers {
@@ -321,7 +321,7 @@ body {
 }
 #container #registers .registers {
   display: inline-block;
-  width: 140px;
+  width: 150px;
 }
 #container #registers .registers .register {
   border: 1px solid #ccc;
@@ -329,7 +329,7 @@ body {
   text-align: right;
 }
 #container .memories {
-  width: 150px;
+  width: 160px;
   display: inline-block;
 }
 #container .memories .memory {
